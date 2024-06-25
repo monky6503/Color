@@ -13,18 +13,22 @@
 <body>
   <main>
     <div class="container">
-      <h1 class="my-5">Color Game</h1>
-      <div class="d-flex gap-5 mb-2">
-        <div class="timer">Time left: <span id="time-left">60</span>s</div>
-        <div class="score">Score: <span id="score">0</span></div>
+      <h1 class="my-3">Color Game</h1>
+      <div class="d-flex align-items-center gap-3">
+        <div class="d-flex align-items-center gap-3 ">
+          <div class="timer">Time left: <span id="time-left">60</span>s</div>
+          <div class="score">Score: <span id="score">0</span></div>
+        </div>
+        <div class="start">
+          <button class="btn btn-dark start-btn">Start</button>
+        </div>
+        <div class="pause">
+          <button class="btn btn-dark pause-btn">Pause</button>
+        </div>
       </div>
+
+
       <div class="grid-box"></div>
-      <div class="start">
-        <button class="btn btn-dark start-btn">Start</button>
-      </div>
-      <div class="pause">
-        <button class="btn btn-dark pause-btn">Pause</button>
-      </div>
       <div class="game-over">Game Over!!!</div>
     </div>
   </main>
