@@ -19,6 +19,7 @@ main{
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    
     h1{
       font-size:80px;
       background: linear-gradient(to bottom, #ec2f4b ,#f5af19 ,#009fff );
@@ -32,9 +33,9 @@ main{
       display:none;
       border:5px solid white;
       border-radius:10px;
+      gap:5px;
       span{
-        border:5px solid white;
-        border-radius:10px;
+        border-radius:5px;
       }
     }
 

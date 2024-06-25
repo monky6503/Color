@@ -74,7 +74,7 @@ function checkColor(event) {
       attachClickListeners();
   } else{
     score--;
-    if(score <0) score = 0;
+    if(score <= 0)score = 0;
   }
   scoreElement.textContent = score;
 }

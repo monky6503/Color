@@ -35,10 +35,10 @@ main .container .grid-box {
   display: none;
   border: 5px solid white;
   border-radius: 10px;
+  gap: 5px;
 }
 main .container .grid-box span {
-  border: 5px solid white;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 main .container .start {
   display: block;
