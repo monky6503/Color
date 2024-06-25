@@ -21,13 +21,14 @@ main{
     align-items: center;
     h1{
       font-size:80px;
+      margin:30px 0;
       background: linear-gradient(to bottom, #ec2f4b ,#f5af19 ,#009fff );
       color:transparent;
       background-clip: text;
     }
-    .grid{
-      width: 600px;
-      height: 600px;
+    .grid-box{
+      width: 580px;
+      height: 580px;
       background-color: white;
       display:none;
       border:5px solid white;

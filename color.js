@@ -6,7 +6,7 @@ let opacity = 0.6;
 const maxGridSize = 10;
 const Interval = 1000;
 
-const gridElement = document.querySelector(".grid");
+const gridElement = document.querySelector(".grid-box");
 const scoreElement = document.getElementById("score");
 const timeElement = document.getElementById("time-left");
 const startButton = document.querySelector(".start-btn");
