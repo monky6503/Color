@@ -70,15 +70,16 @@ main{
   main{
     .container{
       h1{
-        font-size:40px;
+        font-size:55px;
       
       }
       .grid-box{
         width: 100vw;
         height: auto;
         aspect-ratio: 1/1;
-        
-        
+      }
+      .game-over{
+        font-size:55px;
       }
     }
   }

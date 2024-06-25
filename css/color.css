@@ -63,11 +63,14 @@ main .container .timer, main .container .score {
 
 @media (max-width: 576px) {
   main .container h1 {
-    font-size: 40px;
+    font-size: 55px;
   }
   main .container .grid-box {
     width: 100vw;
     height: auto;
     aspect-ratio: 1/1;
+  }
+  main .container .game-over {
+    font-size: 55px;
   }
 }/*# sourceMappingURL=color.css.map */
