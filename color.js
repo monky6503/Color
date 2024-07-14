@@ -124,7 +124,8 @@ function gameOver(){
 startButton.addEventListener("click",start)
 pauseButton.addEventListener("click",()=>{
   isPaused = !isPaused ;
-  gridElement.style.filter = isPaused?"blur(50px)":"blur(0px)";
+  gridElement.style.display = isPaused?"none":"grid";
+  // gridElement.style.filter = isPaused?"blur(50px)":"blur(0px)";
 })
 
 //創建表格
